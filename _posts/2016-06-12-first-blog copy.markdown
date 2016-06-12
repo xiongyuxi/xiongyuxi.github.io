@@ -11,13 +11,15 @@ icon: fa icon-raspberrypi
 
 There are many tutorials for making Raspberry pi system read only. The main purpose is protect the micro SD card from corruption. Without read only file system, The Raspberry Pi will usually face micro-SD card corruption due to heavy write on card and suddenly unexpected power off.
 
-1.Install UnionFS, UnionFS is a RAM file system
-```powershell
+1.Install UnionFS, UnionFS is a RAM file system.
+
+```
 apt-get install unionfs-fuse
 ```
 
-2.Create mount script and make it executable
-```powershell
+2.Create mount script and make it executable.
+
+```
 nano /usr/local/bin/mount_unionfs
 
 #Add the following content to this file:
@@ -37,4 +39,6 @@ fi
 
 chmod +x /usr/local/bin/mount_unionfs
 ```
+
+
 
