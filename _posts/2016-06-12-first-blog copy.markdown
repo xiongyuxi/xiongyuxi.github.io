@@ -40,5 +40,37 @@ fi
 chmod +x /usr/local/bin/mount_unionfs
 ```
 
+Update /etc/fstab:
 
+```
+nano /etc/fstab
+```
 
+Modify the file to read as follows:
+
+```
+proc            /proc           proc    defaults          0       0
+/dev/mmcblk0p1  /boot           vfat    ro                0       2
+/dev/mmcblk0p2  /               ext4    ro,noatime        0       1
+mount_unionfs   /etc            fuse    defaults          0       0
+mount_unionfs   /var            fuse    defaults          0       0
+none            /tmp            tmpfs   defaults          0       0
+```
+
+Prepare the directories
+
+```
+cp -al /etc /etc_org
+mv /var /var_org
+mkdir /etc_rw
+mkdir /var /var_rw
+reboot
+```
+
+Done!
+
+But, How to get raspi back to read-write for updating/upgrading/etc?
+
+```
+mount -o remount,rw /
+```
