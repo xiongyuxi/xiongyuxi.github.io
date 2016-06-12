@@ -6,6 +6,6 @@ title: Ted Xiong's Blog
 	<ul class="raspis">
 
 	  {% for raspi in site.raspis %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ raspi.url }}" title="{{ raspi.title }}">{{ raspi.title }}</a></li>
+	    <li><span>{{ raspi.date | date_to_string }}</span> » <a href="{{ raspi.url }}" title="{{ raspi.title }}">{{ raspi.title }}</a></li>
 	  {% endfor %}
 	</ul>
