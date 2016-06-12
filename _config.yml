@@ -1,2 +1,5 @@
 	name: Ted Xiong|Developer
 	markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
+
