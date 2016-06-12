@@ -19,11 +19,13 @@ sudo apt-get purge xfconf xfce4-utils xfwm4 xfce4-session thunar
 ```
 
 2.remove lightdm, the GUI login.
+
 ```
 sudo apt-get remove lightdm
 ```
 
 3.use autoremove to clean up everything
+
 ```
 sudo apt-get autoremove
 ```
