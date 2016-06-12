@@ -6,44 +6,48 @@
 			<!-- Bootstrap core CSS -->
     		<link href="/css/bootstrap.min.css" rel="stylesheet">
 		</head>
-		<body>
-			<nav class="navbar navbar-default navbar-fixed-top">
-      			<div class="container">
-        			<div class="navbar-header">
-          				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            			<span class="sr-only">Toggle navigation</span>
-            			<span class="icon-bar"></span>
-            			<span class="icon-bar"></span>
-            			<span class="icon-bar"></span>
-          				</button>
-          				<a class="navbar-brand" href="#">Ted Xiong</a>
-        			</div>
-        			<div id="navbar" class="collapse navbar-collapse">
-          				<ul class="nav navbar-nav">
-            				<li class="active"><a href="/">Home</a></li>
-            				<li><a href="/about">About</a></li>
-            				<li><a href="/cv">CV</a></li>
-            				<li><a href="/cv">Blog</a></li>
-            				<li><a href="/cv">Raspi</a></li>
-          				</ul>
-       		 		</div><!--/.nav-collapse -->
-      			</div>
-      			::after
-    		</nav>
-    			
-			<div class="container">
-				::before
-				<div>
-					{{ content }}
-				</div>
-			</div><!-- /.container -->
-			<footer class="footer">
-				<div class="container">
-	    		<ul>
-	        		<li><a href="mailto:yuxixiong@icloud.com">email</a></li>
-	        		<li><a href="https://github.com/xiongyuxi">github.com/xiongyuxi</a></li>
-				</ul>
-				</div>
-			</footer>
-		</body>
+<body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container">
+      		{{ content }}
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/css/bootstrap.min.js"></script>  
+</body>
 	</html>
