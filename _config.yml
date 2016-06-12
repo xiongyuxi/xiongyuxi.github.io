@@ -56,7 +56,7 @@ ba:
 
 # google analytics
 ga:
-  id: 
+  id: UA-79210548-1
 
 # blog img path
 img_path: '/static/img/blog'
