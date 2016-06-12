@@ -2,6 +2,7 @@ name: Ted Xiong|Developer
 markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
+permalink: /raspi/:year/:month/:day/:title
 
 gems:
   - jekyll-sitemap
