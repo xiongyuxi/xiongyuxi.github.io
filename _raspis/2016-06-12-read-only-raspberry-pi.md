@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: raspi
 title: "Ted Xiong|Developer, Read Only Raspi"
 date: 2016-06-12
 ---
