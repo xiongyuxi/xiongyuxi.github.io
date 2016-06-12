@@ -9,4 +9,3 @@ There are many tutorials for making Raspberry pi system read only. The main purp
 
 1.Install UnionFS
 UnionFS is a RAM file system
-<pre class="prettyprint pre-scrollable"><code>apt-get install unionfs-fuse</code></pre>
