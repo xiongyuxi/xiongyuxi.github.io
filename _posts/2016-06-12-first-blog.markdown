@@ -3,7 +3,7 @@ layout: post
 title:  "My first blog"
 desc: "My first blog"
 keywords: "jekyll,blog,first"
-date: 2015-01-08
+date: 2016-06-12
 categories: [Life]
 tags: [blog]
 icon: fa-bookmark-o

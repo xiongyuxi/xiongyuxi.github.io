@@ -3,7 +3,7 @@ layout: post
 title:  "Make Raspbian System Read-Only"
 desc: "Make Raspbian System Read-Only"
 keywords: "Raspbian,blog,read only"
-date: 2015-01-08
+date: 2016-06-12
 categories: [raspberry]
 tags: [blog]
 icon: fa icon-raspberrypi
