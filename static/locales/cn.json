@@ -12,6 +12,34 @@
     "about_me": "关于我",
     "des": "我是一名iOS独立开发者，同时也做一些Python和Deep learning的开发，这个小站是平时记录学习笔记的。回国之后因为AWS的EC2太不稳定，所以从EC2上的wordpress搬到免费的github page。欢迎来到我的小站”
   },
+  "skills":{
+    "my_skills": "我的技能"
+  },
+  "projects":{
+    "my_projects": "",
+    "saplatform": "",
+    "jalpc": "",
+    "raspberry": ""
+  },
+  "career":{
+    "my_career": "",
+    "nextcode": "",
+    "nextcode_des": "",
+    "nextcode_date": "",
+    "nextcode_job": "",
+    "netease": "",
+    "netease_des": "",
+    "netease_date": "",
+    "netease_job": "",
+    "ucloud": "",
+    "ucloud_des": "",
+    "ucloud_date": "",
+    "ucloud_job": "",
+    "college": "",
+    "college_des": "",
+    "college_date": "",
+    "college_job": ""
+  },
     "blog":{
     "my_blog": "我的博客"
   },
