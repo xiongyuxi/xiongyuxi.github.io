@@ -24,7 +24,8 @@ This is some note from WWDC 2016, what's new in swift
 
 
 4.Changes in Swift3
-Change in naming
+#Change in naming 
+
 
 ```
 //Swift2 array
@@ -35,6 +36,7 @@ array.insert(1,atIndex:0)
 if url.fileURL {}
 x = url.URLByAppendingPathComponent("file.txt")
 ```
+
 
 ```
 //Swift3 array
