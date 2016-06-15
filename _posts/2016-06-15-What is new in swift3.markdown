@@ -39,6 +39,7 @@ x = url.URLByAppendingPathComponent("file.txt")
 ```
 
 Swift3
+
 ```
 //Swift3 array
 array.append(contentsOf: [2,3,4])
@@ -51,6 +52,7 @@ x = url.appendingPathComponent("file.txt")
 
 
 Change in import objective-c
+
 ```
 //Swift2
 func CGContextFillPath(_: CGContext)
@@ -62,6 +64,7 @@ extension CGContext {
 
 
 Change in generics(swift will fully import generics )
+
 ```
 //Swift2
 func findAnimals() {
@@ -86,6 +89,7 @@ func findAnimals() {
 
 
 Change in import stringly typed objective-c constants (by using extention)
+
 ```
 //Swift3
 extrnsion UserDefaults {
@@ -97,7 +101,7 @@ center.addObserver(forName: UserDefaults.didChangeNotification, ...)
 
 
 Change in Core Language
-function
+
 ```
 //Swift 2
 func myFinction(a:Int, b:Int, c:Int){ }
@@ -112,6 +116,7 @@ myFunction(a:42, b: 57, c: 99)
 ```
 
 generics
+
 ```
 //Swift2
 func anyCommon<T: Sequence, U: Sequence
@@ -127,6 +132,7 @@ func anyCommon<T: Sequence, U: Sequence>(lhs: T, rhs: U) -> Bool
 
 
 Warn on unused results by default
+
 ```
 func plusOne(_ a: Int) -> Int {
     return a+1
@@ -137,6 +143,7 @@ plusOne(x) // Swift3 will warn unused
 
 
 Change in type 
+
 ```
 //Swift2
 let ptr : UnsafeMutablePointer<Int> = nil
@@ -152,6 +159,7 @@ ptr?.memory = 42
 ```
 
 Change in IUO
+
 ```
 //Swift2
 func f(value: Int!){
@@ -175,6 +183,7 @@ use(array)
 ```
 
 Change in collection indexing model
+
 ```
 //Swift2
 i = collection.startIndex
@@ -186,5 +195,16 @@ i = collection.startIndex
 next = i.successor(after: i)
 ```
 
+Change in floating point and numerics
 
+```
+//Swift2
+let v = 2 * Float(M_PI)
+
+return x * CGFloat(M_PI) /180
+//Swift3
+let v = 2 * Float.pi
+
+return x * .pi /180
+```
 
